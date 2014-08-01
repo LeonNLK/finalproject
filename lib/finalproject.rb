@@ -16,8 +16,6 @@ class Tweet
   end
 
   def time_of_tweet
-    time = open("https://twitter.com/realtimewwi")
-    @time_of_tweet = Nokogiri::HTML(time)
-    @time_of_tweet.css(".js-short-timestamp js-relative-timestamp")
+   @tweet_time = Time.at(@tweetsdoc.css(".js-short-timestamp").first.attributes["data-time"].value.to_i)
   end
 end
