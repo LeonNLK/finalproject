@@ -13,15 +13,8 @@ h1 {
 }
 
 
-#tweet {
+.twitter-tweet {
 
   text-align:center;
-  background-color:white;
-  border-style:solid;
-  border-padding:50px;
-  border-margin:10px;
-  border-radius:5px;
-  font-size:20px;
-  font-family:Georgia;
 
 }
