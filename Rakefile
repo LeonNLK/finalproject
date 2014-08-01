@@ -3,7 +3,7 @@ require_relative 'lib/finalproject.rb'
 
 task :text_tweets do 
 
-mytext = Text.new()
+mytext = Text.new
 puts mytext.message
 
 end

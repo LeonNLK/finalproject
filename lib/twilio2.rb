@@ -5,7 +5,7 @@ require_relative 'finalproject.rb'
 class Text
 
   def message 
-    @tweet_text=Tweet.new("realtimewwi")
+    @tweet_text=Tweet.new
     account_sid = 'ACe330ba04d082392df4cb3511dcb72cec'
       auth_token = '2008ea097713e401a16c54029058da82'
       @client = Twilio::REST::Client.new account_sid, auth_token
