@@ -1,0 +1,27 @@
+body {
+
+background-image:url('http://upload.wikimedia.org/wikipedia/commons/0/07/II_Kauno_fortas.The_second_fort_of_Kaunas.jpg');
+
+}
+
+h1 {
+
+  border-style:solid;
+  background-color:white;
+  
+
+}
+
+
+#tweet {
+
+  text-align:center;
+  background-color:white;
+  border-style:solid;
+  border-padding:50px;
+  border-margin:10px;
+  border-radius:5px;
+  font-size:20px;
+  font-family:Georgia;
+
+}
